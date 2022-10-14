@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+  </head>
+  <body>
+    <h1>Contact Me!</h1>
+    <ul>
+      <li>call me at +39 3895712749</li>
+      <li>
+        e-mail me at <a href="mailto:ipuha58@gmail.com"> ipuha58@gmail.com</a>
+      </li>
+    </ul>
+    <hr />
+    <form action="mailto:ipuha58@gmail.com" method="post" enctype="text/plain">
+      <label> Your Name:</label>
+      <input type="text" name="your Name" /><br />
+      <!--<label>Do you want to sign up to the email list?</label>
+      <input type="checkbox" />-->
+      <!--iniziamo a vedere come fare una forma embrionale di quella che è una schermata di login moderna-->
+
+      <label>Your Email:</label>
+      <input type="email" name="your Email" /> <br />
+      <!--usando l'input type password ciò che scriviamo verrà nascosto dai puntini come succede normalmente quando inseriamo la nostra password in qualsiasi sito-->
+
+      <label>Your Message:</label> <br />
+      <textarea name="your Message" id="" cols="30" rows="10"></textarea>
+      <input type="submit" />
+      <!--possiamo guardare nel dettaglio lap pagina MDN del tag input alla sezione type per vedere quante cose e funzioni diverse possiamo implementare semplicemente cambiando il tipo di input-->
+    </form>
+  </body>
+</html>
